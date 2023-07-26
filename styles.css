@@ -1,4 +1,117 @@
-*{
+* {
     box-sizing: border-box;
 }
 
+
+
+html {
+    font-size: 16px;
+
+}
+
+body {
+
+    font-family: 'Merriweather', serif !important;
+    background-color: #dce6db !important;
+    
+}
+
+
+
+.heading {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #8d9f87ff;
+
+}
+
+.head-image {
+
+    height: auto;
+    margin: 1rem 5rem 1rem 5rem;
+    max-width: 95%;
+
+}
+
+.navbar {
+    margin-bottom: -1rem;
+    background-color: #dce6db
+}
+
+
+
+.gold-mannequin,
+.gold,
+.gold-beeds {
+    max-width: 100%;
+
+}
+
+.e-description {
+    margin: 1rem 4rem;
+    text-align: center;
+}
+
+.description-title,
+.description {
+    text-align: center;
+
+}
+
+.description {
+    margin: 0rem 1rem 2rem 1rem;
+    max-width: 100%;
+}
+
+.card-title {
+    margin: 2rem;
+
+}
+
+
+.rows {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0.3rem;
+    
+    
+
+
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.manga {
+    width: 5rem;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .rows {
+
+        flex-direction: column;
+    }
+
+    .card {
+
+        width: 100%;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+}
